@@ -1,5 +1,5 @@
 # frontend
- DEMO VIDEO: https://www.youtube.com/watch?v=JfFAp881LG8
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/JfFAp881LG8/0.jpg)](http://www.youtube.com/watch?v=JfFAp881LG8 "DEMO VIDEO")
 # Frontend
 
 This is the frontend part of our project, responsible for the user interface and client-side interactions.
