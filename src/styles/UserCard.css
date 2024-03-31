@@ -1,0 +1,48 @@
+/* UserCard.css */
+.user-card {
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: calc(50% - 16px); /* Set width to 50% minus margin */
+    box-sizing: border-box;
+    float: left; /* Float cards to the left */
+  }
+
+
+  .delete-button {
+    background-color: #ff0055;
+  }
+
+  .delete-button:hover {
+    background-color: #930333;
+  }
+  
+  
+
+  .user-card:hover {
+    /* border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: calc(50% - 16px); */
+     /* Set width to 50% minus margin */
+    /* box-sizing: border-box;
+    float: left;  */
+    /* Float cards to the left */
+    scale: 1.01;
+  }
+  
+  .user-details {
+    margin-top: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .user-card {
+      width: 100%; /* Set width to 100% on smaller screens */
+      float: none; /* Remove float on smaller screens */
+    }
+  }
+  

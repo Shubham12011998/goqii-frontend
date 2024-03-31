@@ -1,0 +1,26 @@
+.update-modal {
+    width: 75%;
+    height: 100%;
+    /* background-color: rgba(246, 0, 0, 0.5);  */
+    /* Semi-transparent background */
+  }
+  
+  .update-modal-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  
+ 
+  .update-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  

@@ -1,0 +1,85 @@
+/* Smartwatch.css */
+.smartwatch {
+    top: 5%;
+    right: 10%;
+    position: absolute;
+    width: 180px;
+    height: auto;
+    z-index: 200;
+  }
+  
+  .smartwatch-image {
+    width: 100%;
+    height: auto;
+    z-index: 200;
+  
+  }
+  
+  .current-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* .additional-watches {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+  
+  .watch1-image,
+  .watch2-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: auto;
+    transform-origin: top center;
+    z-index: -1;
+   
+  }
+
+  
+  .smartwatch:hover .watch1-image {
+    animation: slideOutWatch 1.3s forwards; /* Slide out animation on hover */
+
+  }
+  
+  .smartwatch:hover .watch2-image {
+    animation: slideOutWatch2 1.3s forwards; /* Slide out animation on hover */
+ 
+  }
+
+  .watch1-image:hover,.watch2-image:hover {
+    scale: 1.1;
+  }
+  
+  
+  @keyframes slideOutWatch {
+    from {
+      transform:  rotate(0deg); /* Start from fully visible position */
+    }
+    to {
+      transform: rotate(45deg); /* End at hidden position */
+    }
+  }
+  
+  @keyframes slideOutWatch2 {
+    from {
+      transform:  rotate(0deg); /* Start from fully visible position */
+    }
+    to {
+      transform: rotate(-45deg); /* End at hidden position */
+    }
+  }
+  

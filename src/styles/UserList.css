@@ -1,0 +1,18 @@
+/* UserList.css */
+.user-list-container {
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8; /* Very light, subtle background */
+  }
+  
+  .user-list {
+    display: flex; /* Consider flexbox for layout flexibility */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  
+  
+  
+ 
